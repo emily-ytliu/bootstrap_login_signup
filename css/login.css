@@ -21,6 +21,12 @@ body {
 .container .login-btn {
   background-color: #4D6674;
   color: #fff;
+  box-shadow: 0 2px 3px #344054;
+  transition: 0.3s;
+}
+.container .signup-btn:hover,
+.container .login-btn:hover {
+  scale: 1.1;
 }
 .container .signup-btn {
   font-size: 12px;

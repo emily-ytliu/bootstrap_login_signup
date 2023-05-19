@@ -13,7 +13,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 
     <!-- 自己的 CSS -->
-    <link rel="stylesheet" href="./login.css">
+    <link rel="stylesheet" href="/css/login.css">
 </head>
 <body>
     
@@ -37,11 +37,12 @@
           <label for="exampleInputPassword1" class="subtitle form-label">Name/Password</label>
           <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Sujit Sen">
         </div>
+        <!-- Remark -->
         <div class="mb-3 form-check">
           <input type="checkbox" class="form-check-input" id="exampleCheck1">
           <div class="remark-box">
             <label class="form-check-label" for="exampleCheck1">Keep login</label>
-            <button type="button" class="signup-btn py-0 btn">Sign Up</button>
+            <a href="./signup.html"><button type="button" class="signup-btn py-0 btn">Sign Up</button></a>
           </div>
         </div>
         <div class="login-btn-box">
@@ -49,5 +50,8 @@
         </div>
       </form>
 
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 </body>
 </html>
