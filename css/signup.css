@@ -1,0 +1,23 @@
+body {
+  background-color: #9EB1BB;
+}
+
+.container {
+  width: 40%;
+}
+.container .title-box {
+  margin: 40px auto;
+}
+.container .subtitle {
+  color: #344054;
+  font-weight: bold;
+}
+.container .signup-btn {
+  background-color: #4D6674;
+  color: #fff;
+}
+.container .signup-btn-box {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}/*# sourceMappingURL=signup.css.map */
