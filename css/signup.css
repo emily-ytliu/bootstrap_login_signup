@@ -15,6 +15,10 @@ body {
 .container .signup-btn {
   background-color: #4D6674;
   color: #fff;
+  transition: 0.3s;
+}
+.container .signup-btn:hover {
+  scale: 1.1;
 }
 .container .signup-btn-box {
   display: flex;

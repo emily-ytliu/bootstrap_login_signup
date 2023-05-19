@@ -17,10 +17,39 @@ body {
         font-weight: bold;
     }
 
+    .input-box {
+        position: relative;
+
+        .input {
+            padding-left: 10%;
+        }
+
+        .icon {
+            position: absolute;
+            top: 30%;
+            left: 3%;
+        }
+    }
+
     .remark-box {
         display: flex;
         justify-content: space-between;
         margin-bottom: 30px;
+    }
+
+    .signup-btn {
+        font-size: 12px;
+
+        a {
+            text-decoration: none;
+            color: #fff;
+        }
+    }
+
+    .login-btn-box {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
     }
 
     .signup-btn,
@@ -34,16 +63,6 @@ body {
     .signup-btn:hover,
     .login-btn:hover {
         scale: 1.1;
-    }
-
-    .signup-btn {
-        font-size: 12px;
-    }
-
-    .login-btn-box {
-        display: flex;
-        justify-content: center;
-        margin-top: 30px;
     }
 
 }
