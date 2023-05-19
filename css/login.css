@@ -27,6 +27,7 @@ body {
 .container .signup-btn:hover,
 .container .login-btn:hover {
   scale: 1.1;
+  background-color: #344054;
 }
 .container .signup-btn {
   font-size: 12px;

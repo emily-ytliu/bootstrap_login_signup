@@ -24,25 +24,27 @@
         </div>
         <!-- Email -->
         <div class="mb-3">
-            <label for="exampleInputEmail1" class="subtitle form-label">Email</label>
-            <div class="input-group mb-3">
-                <span class="input-group-text bg-white border-end-0" id="basic-addon1">
-                    <i class="fa-regular fa-envelope"></i>
-                </span>
-                <input type="text" class="form-control border-start-0" placeholder="info.sujitsen@gmail.com"  aria-describedby="basic-addon1">
-            </div>
+          <label for="email" class="subtitle form-label">Email</label>
+          <div class="input-group mb-3">
+              <span class="input-group-text bg-white border-end-0" id="basic-addon1">
+                  <i class="fa-regular fa-envelope"></i>
+              </span>
+              <input type="text" id="email" class="form-control border-start-0" placeholder="info.sujitsen@gmail.com"  aria-describedby="basic-addon1">
+          </div>
         </div>
         <!-- Password -->
         <div class="mb-3">
-          <label for="exampleInputPassword1" class="subtitle form-label">Name/Password</label>
-          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Sujit Sen">
+          <label for="pwd" class="subtitle form-label">Name/Password</label>
+          <input type="password" id="pwd" class="form-control" id="exampleInputPassword1" placeholder="Sujit Sen">
         </div>
         <!-- Remark -->
         <div class="mb-3 form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="check">Keep login</label>
           <div class="remark-box">
-            <label class="form-check-label" for="exampleCheck1">Keep login</label>
-            <a href="./signup.html"><button type="button" class="signup-btn py-0 btn">Sign Up</button></a>
+            <input type="checkbox" class="form-check-input" id="check">
+            <button type="button" class="signup-btn py-0 btn">
+              <a href="./signup.html">Sign Up</a>
+            </button>
           </div>
         </div>
         <div class="login-btn-box">

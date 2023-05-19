@@ -20,6 +20,12 @@ body {
     .signup-btn {
         background-color: $primary-color;
         color: #fff;
+        transition: .3s;
+    }
+
+    .signup-btn:hover {
+        scale: 1.1;
+        background-color: $primary-color-dark;
     }
 
     .signup-btn-box {
