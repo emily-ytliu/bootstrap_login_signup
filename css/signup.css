@@ -21,8 +21,11 @@ body {
 .container .signup-btn:hover {
   scale: 1.1;
   background-color: #344054;
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 02f0343 (update all)
+=======
+>>>>>>> c0a4ef65d6aed0c5e575fd374230741c944af5f2
 }
 .container .signup-btn-box {
   display: flex;

@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 {"version":3,"sources":["signup.scss","signup.css"],"names":[],"mappings":"AAGA;EACI,yBAAA;ACFJ;;ADKA;EACI,UAAA;ACFJ;ADII;EACI,iBAAA;ACFR;ADKI;EACI,cAda;EAeb,iBAAA;ACHR;ADMI;EACI,yBApBQ;EAqBR,WAAA;EACA,gBAAA;ACJR;ADOI;EACI,UAAA;EACA,yBA1Ba;ACqBrB;ADQI;EACI,aAAA;EACA,uBAAA;EACA,gBAAA;ACNR","file":"signup.css"}
 =======
 {"version":3,"sources":["signup.scss","signup.css"],"names":[],"mappings":"AAGA;EACI,yBAAA;ACFJ;;ADKA;EACI,UAAA;ACFJ;ADII;EACI,iBAAA;ACFR;ADKI;EACI,cAda;EAeb,iBAAA;ACHR;ADMI;EACI,yBApBQ;EAqBR,WAAA;ACJR;ADOI;EACI,aAAA;EACA,uBAAA;EACA,gBAAA;ACLR","file":"signup.css"}
 >>>>>>> parent of 02f0343 (update all)
+=======
+{"version":3,"sources":["signup.scss","signup.css"],"names":[],"mappings":"AAGA;EACI,yBAAA;ACFJ;;ADKA;EACI,UAAA;ACFJ;ADII;EACI,iBAAA;ACFR;ADKI;EACI,cAda;EAeb,iBAAA;ACHR;ADMI;EACI,yBApBQ;EAqBR,WAAA;EACA,gBAAA;ACJR;ADOI;EACI,UAAA;EACA,yBA1Ba;ACqBrB;ADQI;EACI,aAAA;EACA,uBAAA;EACA,gBAAA;ACNR","file":"signup.css"}
+>>>>>>> c0a4ef65d6aed0c5e575fd374230741c944af5f2

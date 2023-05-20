@@ -27,12 +27,9 @@ body {
 .container .signup-btn:hover,
 .container .login-btn:hover {
   scale: 1.1;
-<<<<<<< HEAD
-  background-color: #344054;
-=======
->>>>>>> parent of 02f0343 (update all)
+
 }
-.container .signup-btn {
+  .container .signup-btn {
   font-size: 12px;
 }
 .container .login-btn-box {
