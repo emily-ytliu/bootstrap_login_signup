@@ -3,7 +3,12 @@ body {
 }
 
 .container {
-  width: 40%;
+  width: 80%;
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 40%;
+  }
 }
 .container .title-box {
   margin: 40px auto;
@@ -14,18 +19,38 @@ body {
 }
 .container .input-box {
   position: relative;
+  width: 100%;
 }
-.container .input-box .input {
-  padding-left: 10%;
+.container .input-box input {
+  width: 100%;
+  margin-top: 7px;
+  padding: 7px;
+  padding-left: 15%;
+  outline-style: none;
+  border: 1px solid #ced4da;
+  border-radius: 3px;
+}
+@media screen and (min-width: 1024px) {
+  .container .input-box input {
+    padding-left: 10%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container .input-box input {
+    padding-left: 9%;
+  }
 }
 .container .input-box .icon {
   position: absolute;
-  top: 30%;
-  left: 3%;
+  top: 40%;
+  left: 5%;
+}
+@media screen and (min-width: 1024px) {
+  .container .input-box .icon {
+    left: 3%;
+  }
 }
 .container .remark-box {
-  display: flex;
-  justify-content: space-between;
   margin-bottom: 30px;
 }
 .container .signup-btn {
@@ -36,8 +61,6 @@ body {
   color: #fff;
 }
 .container .login-btn-box {
-  display: flex;
-  justify-content: center;
   margin-top: 30px;
 }
 .container .signup-btn,
