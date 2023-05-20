@@ -12,33 +12,10 @@ body {
   color: #344054;
   font-weight: bold;
 }
-.container .input-box {
-  position: relative;
-}
-.container .input-box .input {
-  padding-left: 10%;
-}
-.container .input-box .icon {
-  position: absolute;
-  top: 30%;
-  left: 3%;
-}
 .container .remark-box {
   display: flex;
   justify-content: space-between;
   margin-bottom: 30px;
-}
-.container .signup-btn {
-  font-size: 12px;
-}
-.container .signup-btn a {
-  text-decoration: none;
-  color: #fff;
-}
-.container .login-btn-box {
-  display: flex;
-  justify-content: center;
-  margin-top: 30px;
 }
 .container .signup-btn,
 .container .login-btn {
@@ -50,4 +27,16 @@ body {
 .container .signup-btn:hover,
 .container .login-btn:hover {
   scale: 1.1;
+<<<<<<< HEAD
+  background-color: #344054;
+=======
+>>>>>>> parent of 02f0343 (update all)
+}
+.container .signup-btn {
+  font-size: 12px;
+}
+.container .login-btn-box {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
 }/*# sourceMappingURL=login.css.map */

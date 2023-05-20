@@ -15,10 +15,14 @@ body {
 .container .signup-btn {
   background-color: #4D6674;
   color: #fff;
+<<<<<<< HEAD
   transition: 0.3s;
 }
 .container .signup-btn:hover {
   scale: 1.1;
+  background-color: #344054;
+=======
+>>>>>>> parent of 02f0343 (update all)
 }
 .container .signup-btn-box {
   display: flex;
