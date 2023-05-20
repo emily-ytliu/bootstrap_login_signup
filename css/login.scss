@@ -6,7 +6,11 @@ body {
 }
 
 .container {
-    width: 40%;
+    width: 80%;
+
+    @media screen and (min-width: 768px) {
+        width: 40%;
+    }
 
     .title-box {
         margin: 40px auto;
@@ -17,10 +21,57 @@ body {
         font-weight: bold;
     }
 
+    .input-box {
+        position: relative;
+        width: 100%;
+
+        input {
+            width: 100%;
+            margin-top: 7px;
+            padding: 7px;
+            padding-left: 15%;  //避免被icon遮住
+            outline-style: none;
+            border: 1px solid #ced4da;
+            border-radius: 3px;
+
+
+            @media screen and (min-width: 1024px) {
+                padding-left: 10%;
+            }
+
+            @media screen and (min-width: 1200px) {
+                padding-left: 9%;
+            }
+        }
+
+        .icon {
+            position: absolute;
+            top: 40%;
+            left: 5%;
+
+            @media screen and (min-width: 1024px) {
+                left: 3%;
+            }
+        }
+    }
+
     .remark-box {
-        display: flex;
-        justify-content: space-between;
         margin-bottom: 30px;
+    }
+
+    .signup-btn {
+        font-size: 12px;
+
+        a {
+            text-decoration: none;
+            color: #fff;
+        }
+    }
+
+    .login-btn-box {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
     }
 
     .signup-btn,
