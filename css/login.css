@@ -51,7 +51,7 @@ body {
   }
 }
 .container .remark-box {
-  margin-bottom: 30px;
+  margin: 30px 0;
 }
 .container .signup-btn {
   font-size: 12px;
@@ -60,27 +60,44 @@ body {
   text-decoration: none;
   color: #fff;
 }
+<<<<<<< HEAD
 .container .login-btn-box {
   display: flex;
   justify-content: center;
+=======
+.container .login-submit-btn-box {
+>>>>>>> develop
   margin-top: 30px;
 }
 .container .signup-btn,
-.container .login-btn {
+.container .login-submit-btn {
   background-color: #4D6674;
   color: #fff;
   box-shadow: 0 2px 3px #344054;
   transition: 0.3s;
 }
 .container .signup-btn:hover,
-.container .login-btn:hover {
+.container .login-submit-btn:hover {
   scale: 1.1;
+<<<<<<< HEAD
 
 }
   .container .signup-btn {
   font-size: 12px;
 }
 .container .login-btn-box {
+=======
+}
+.container .signup-submit-btn {
+  background-color: #4D6674;
+  color: #fff;
+  transition: 0.3s;
+}
+.container .signup-submit-btn:hover {
+  scale: 1.1;
+}
+.container .signup-submit-btn-box {
+>>>>>>> develop
   display: flex;
   justify-content: center;
   margin-top: 30px;

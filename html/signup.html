@@ -4,16 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sign Up</title>
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-
     <!-- 自己的 CSS -->
-    <link rel="stylesheet" href="/css/signup.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     
@@ -24,46 +21,39 @@
         </div>
         <!-- Email -->
         <div class="mb-3">
-            <label for="exampleInputEmail1" class="subtitle form-label">Email Account</label>
-            <div class="input-group mb-3">
-                <span class="input-group-text bg-white border-end-0" id="basic-addon1">
-                  <i class="fa-regular fa-envelope"></i>
-                </span>
-                <input type="text" class="form-control border-start-0" placeholder="info.sujitsen@gmail.com" aria-describedby="basic-addon1">
-            </div>
+          <label for="email" class="subtitle">Email Account</label>
+          <div class="input-box">
+            <input type="text" id="email" placeholder="info.sujitsen@gmail.com">
+            <i class="icon fa-regular fa-envelope"></i>
+          </div>
         </div>
         <!-- Name -->
         <div class="mb-3">
-          <label for="exampleInputName1" class="subtitle form-label">Name</label>
-          <div class="input-group mb-3">
-              <span class="input-group-text bg-white border-end-0" id="basic-addon1">
-                <i class="fa-solid fa-user"></i>
-              </span>
-              <input type="text" class="form-control border-start-0" placeholder="Kouhei ho" aria-describedby="basic-addon1">
+          <label for="name" class="subtitle">Name</label>
+          <div class="input-box">
+            <input type="text" id="name" placeholder="Kouhei ho">
+            <i class="icon fa-solid fa-user"></i>
           </div>
         </div>
         <!-- Password -->
         <div class="mb-3">
-          <label for="exampleInputPassword1" class="subtitle form-label">Password</label>
-          <div class="input-group mb-3">
-              <span class="input-group-text bg-white border-end-0" id="basic-addon1">
-                <i class="fa-solid fa-lock"></i>
-              </span>
-              <input type="password" class="form-control border-start-0" aria-describedby="basic-addon1">
+          <label for="pwd" class="subtitle">Password</label>
+          <div class="input-box">
+            <input type="password" id="pwd">
+            <i class="icon fa-solid fa-lock"></i>
           </div>
         </div>
         <!-- Repeat Password -->
         <div class="mb-3">
-          <label for="exampleInputRepeatPassword1" class="subtitle form-label">Repeat Password</label>
-          <div class="input-group mb-3">
-              <span class="input-group-text bg-white border-end-0" id="basic-addon1">
-                <i class="fa-solid fa-lock"></i>
-              </span>
-              <input type="password" class="form-control border-start-0" aria-describedby="basic-addon1">
+          <label for="re-pwd" class="subtitle">Repeat Password</label>
+          <div class="input-box">
+            <input type="password" id="re-pwd">
+            <i class="icon fa-solid fa-lock"></i>
           </div>
         </div>
-        <div class="signup-btn-box">
-            <button type="submit" class="signup-btn btn px-5">Sign Up</button>
+        <!-- Sign Up -->
+        <div class="signup-submit-btn-box  d-flex justify-content-center">
+            <button type="submit" class="signup-submit-btn btn px-5">Sign Up</button>
         </div>
       </form>
 
