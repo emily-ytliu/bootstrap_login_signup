@@ -8899,4 +8899,13 @@ body {
 }
 .container .signup-submit-btn:hover {
   scale: 1.1;
+  background-color: #344054;
+}
+.container .signup-btn {
+  font-size: 12px;
+}
+.container .login-btn-box {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
 }/*# sourceMappingURL=style.css.map */
